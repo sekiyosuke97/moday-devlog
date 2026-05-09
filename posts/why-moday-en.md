@@ -1,5 +1,7 @@
 <!-- canonical: https://moday.me/blogs/journal/why-moday -->
 
+![MODAY MONDAY tee](https://raw.githubusercontent.com/sekiyosuke97/moday-devlog/main/assets/why-moday-hero.png)
+
 # Why I Started MODAY — The T-Shirt That Says "I'm So Sorry"
 
 ## The Apology T-Shirt on the Zoom Call
