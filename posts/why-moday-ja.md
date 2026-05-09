@@ -1,5 +1,7 @@
 <!-- canonical: https://moday.me/blogs/journal/why-moday -->
 
+![MODAY MONDAY tee](https://raw.githubusercontent.com/sekiyosuke97/moday-devlog/main/assets/why-moday-hero.png)
+
 # なぜMODAYを始めたのか — 「申し訳ございません」と書かれたTシャツの話
 
 ## オンラインMTGの画面に映った「大変申し訳ございません」
