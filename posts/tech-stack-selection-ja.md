@@ -1,5 +1,7 @@
 <!-- canonical: https://moday.me/blogs/engineering/tech-stack-selection -->
 
+![MODAY engineering hero](https://raw.githubusercontent.com/sekiyosuke97/moday-devlog/main/assets/tech-stack-selection-hero.png)
+
 # MODAYの技術スタック選定 — Claudeに丸投げしたら、知らないサービスが並んでいた
 
 ## このブランドのコンセプトは「AI駆動型ブランド立ち上げ」
