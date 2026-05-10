@@ -2,133 +2,133 @@
 
 ![MODAY engineering hero](https://raw.githubusercontent.com/sekiyosuke97/moday-devlog/main/assets/tech-stack-selection-hero.png)
 
-# Building MODAY's Tech Stack — I Handed It All to Claude, and Now I'm Using Services I've Never Heard Of
+# I Asked Claude to Pick My Tech Stack — Now I'm Running on Services I'd Never Heard Of
 
-## This brand's concept is "AI-driven brand launch"
+## The brand's thesis is "how far can AI take a launch?"
 
-Let me set the stage first. MODAY's business concept is about **"how far we can push AI-driven brand launches"** — honestly, that's almost half the point. Selling T-shirts is secondary.
+Up front: MODAY is half a T-shirt brand and half an experiment.
 
-I do EC consulting for a living and I've seen enough of the real-world work. But here's the constraint: **one person, global reach, three days to launch**. I'm experimenting with how much I can actually hand off to AI — both the thinking and the implementation.
+The real question I'm trying to answer is **how much of a brand launch can I delegate to AI?** I work as an e-commerce consultant by day, so I've watched the operational side of launches up close. But MODAY is a deliberate setup: one person, global market, three days, and AI doing as much of the judgment and execution as it'll let me hand over.
 
-So that's how I approached the tech stack selection too. Not "I don't know, so I asked AI," but rather **"I'm throwing this at AI from the start — I'll just set the decision criteria, and let it do the rest."** Clean division of labor.
+The tech stack got picked the same way. Not "I didn't know, so I asked AI." More like: **I started with the assumption that AI would pick, and my only job was to define the criteria.**
 
-Here's what we ended up with:
+Here's what came out:
 
-| Layer | Tech |
+| Layer | Service |
 |---|---|
-| Store | Shopify (Dawn theme) |
-| POD | Gelato |
+| Storefront | Shopify (Dawn theme) |
+| Print-on-demand | Gelato |
 | Translation | Translate & Adapt |
 | Automation | Make.com |
-| Webhook | FastAPI on Render.com |
-| Image Generation | fal.ai FLUX Pro |
-| AI Text Processing | Anthropic API |
+| Webhook server | FastAPI on Render.com |
+| Image generation | fal.ai (FLUX Pro) |
+| Text / AI processing | Anthropic API |
 
-Out of all that, **I'd only heard of Shopify and Anthropic API**. Everything else? First time seeing those names, straight from conversations with Claude.
+Of those seven, **the only names I recognized going in were Shopify and Anthropic.** The rest I met for the first time in conversations with Claude.
 
-It's only been three days since I picked this stack and started building it.
+The whole stack is three days old.
 
-## I chose Shopify because of a news headline, not the tech
+## I picked Shopify because of a news headline
 
-Simple story here.
+The Shopify decision is the dumbest one to explain.
 
-I saw a news piece about **Shopify MCP** a while back. I thought, "Oh, that means Claude Code can actually build stores with this." That was basically it.
+A while back I saw the Shopify MCP announcement go by. My immediate thought: "ok, so Claude Code can actually drive a Shopify store now." That was 90% of the decision.
 
-I do EC consulting normally, so I've looked at Shopify from the outside. But I'd never really built with it myself. Still, I figured "if Claude Code can touch Shopify through MCP, I can survive not knowing it well."
+I've watched Shopify from the consultant side for years, but I'd never built on it myself. Doesn't matter — if Claude Code can reach in via MCP, I figured I could ship without having to first become a Shopify person.
 
-I didn't even consider domestic services (BASE, STORES) from the start. One reason: **I wanted to go global from day one**. Nine languages, multiple currencies, multiple payment methods. Only Shopify showed all of that right out of the box.
+Japanese-domestic platforms (BASE, STORES) never made the shortlist. One reason: **I wanted to ship globally on day one.** Nine languages, multi-currency, real cross-border checkout. Shopify is the only platform that makes that look easy on day one.
 
-Honest truth? My selection axis wasn't "technical specs." It was **"does it play nice with Claude Code?"** and **"can I sell this to the world?"**
+So my actual selection criteria weren't "which platform is technically best." They were "which one works smoothest with Claude Code" and "which one lets me sell worldwide tomorrow."
 
-## POD was always going to Claude from the start
+## I outsourced the POD decision to Claude on purpose
 
-How do you manufacture and ship T-shirts?
+How do I print and ship the actual T-shirts?
 
-I didn't know a single POD (Print On Demand) service. Never heard of Printful, Printify, Gelato — nothing.
+Going in, I knew zero print-on-demand services. Printful, Printify, Gelato — never heard of any of them.
 
-But that wasn't a problem. **I was planning to hand this off to AI anyway**. My knowledge of the global POD market is limited. So instead of me trying to compare them myself, I'd give Claude the criteria and let it do the selection.
+That wasn't a problem. **The plan was always to outsource the selection.** My personal knowledge of the global POD market is shallow. If I write down the business constraints and let Claude rank options against them, the answer is going to beat anything I'd reach on my own in a week of research.
 
-Here's what I asked:
+The prompt I sent:
 
-> I want to sell custom T-shirts on Shopify using on-demand printing, fully automated. Target markets are global — America, Europe, Asia — with Japan as secondary. Which on-demand print service should I use? Can you research it?
+> I want to sell custom T-shirts via Shopify with print-on-demand, fulfilled automatically. Target markets are the US, Europe, Asia — Japan is a secondary market. Which POD service should I use? Compare a few.
 
-That's it. **All business-layer criteria**. "Global," "automated," "Japan is secondary." I didn't — couldn't — throw in technical axes like SDK language, rate limits, Webhook format, or auth methods.
+That was it. **Nothing technical.** No SDK languages, rate limits, webhook formats, or auth schemes. I couldn't have written those criteria if I'd tried.
 
-What came back:
+The answer:
 
-> For global on-demand print, I've compared the three main services. Bottom line: **Gelato is the best fit for your use case**.
+> I compared the three major POD services. Bottom line: **Gelato is the best fit for your use case.**
 >
-> **🥇 Gelato (Recommended)**
-> - Local printing network with 140+ facilities across 32 countries
-> - Local production available in Japan, South Korea, Singapore, Malaysia, Australia, India, China
-> - Average delivery to EU, US, Asia customers within 72 hours
-> - Low tariff risk (local production means no cross-border shipping)
+> **🥇 Gelato (top pick)**
+> - Local print network in 32 countries, 140+ facilities
+> - Local production in Japan, Korea, Singapore, Malaysia, Australia, India, China
+> - Average 72-hour delivery to EU / US / Asia customers
+> - Low customs risk (production stays in-country)
 > - Ships to 200+ countries
-> - Weaknesses: Smaller product lineup than Printify, slightly higher prices
+> - Trade-off: smaller catalog than Printify, slightly higher unit cost
 >
-> **🥈 Printful (If brand quality matters most)**
-> - 17 facilities across North America, Europe, Asia
-> - Strict quality control, good for brand building
-> - Weaknesses: Most expensive of the three
+> **🥈 Printful (best for brand)**
+> - 17 facilities across NA, EU, Asia
+> - Tightest QC of the three; well-suited to brand-building
+> - Trade-off: highest unit cost
 >
-> **🥉 Printify (If cost matters most)**
-> - Network of 90+ print providers, 950+ product options
-> - Often 10-20% cheaper than Gelato
-> - Weaknesses: Fewer local production hubs in Asia than Gelato, no Japanese support
+> **🥉 Printify (best for cost)**
+> - 90+ print providers, 950+ products
+> - 10–20% cheaper than Gelato in most categories
+> - Trade-off: thinner Asian local-production network, no Japanese-language support
 >
-> **Recommended approach:** For global focus with Japan secondary, use Gelato as your main. You get local production everywhere (US, Europe, Asia), which beats the competition on shipping costs, tariffs, and speed.
+> **Recommendation:** for global-primary, Japan-secondary, lead with Gelato. Local production across all three regions wins on shipping cost, customs, and delivery speed simultaneously.
 
-Decision made. **I'm handing the core of my store to a POD service I've never met or touched.**
+Decided. **The core of my fulfillment now runs on a service I'd never heard of and never touched.**
 
-If I did this comparison myself as a consultant, I'd be reading through three sets of docs, consulting with people, and burning a week easy. This was near-instant.
+If I'd done this comparison the way I would have as a consultant — reading three sets of docs, asking around — I'd have spent a week. Instead, near-instant.
 
-## FastAPI? I'm still not even sure what it does
+## With FastAPI, I'm not even at the "do you use it?" level
 
-Look at that tech stack table again. "Webhook: FastAPI on Render.com."
+The stack table says "Webhook: FastAPI on Render.com."
 
-I have to laugh at myself a little. **I still don't really understand what FastAPI is.**
+I laugh a little when I write that. **I don't actually know what FastAPI is.**
 
-Early on in the build, I needed something to receive order webhooks from Shopify and pass them to Gelato. Claude Code said, "I'll write this in FastAPI and deploy it to Render.com." My understanding: it's a Python framework. My response: "Please do."
+Early in the build I needed something to catch Shopify order webhooks and forward them to Gelato. Claude Code said "I'll write it in FastAPI and deploy it to Render." A Python framework, apparently. I said go ahead.
 
-It got written. It got deployed. It works. The most I've done is watch logs in the Render dashboard.
+It got written. It got deployed. It works. My total interaction with it is staring at logs in the Render dashboard.
 
-By the way, **that setup isn't even in use anymore**. Something felt off while building, so I switched approaches. I'll write about that in the next article or the one after.
+(Side note: that piece is **already retired.** Something felt off mid-build and I swapped it out for a different approach. That's two posts down the road.)
 
-When you commit to "AI-driven," **you can't necessarily explain your entire stack yourself**. I'm okay with that. It's a known trade-off.
+When you decide to "go AI-first," **you accept that you can't fully explain your own stack.** That trade-off is the point, not a bug.
 
-## Is this smart, or is this dangerous?
+## Smart, or reckless?
 
-I'm not even sure how to answer that yet.
+Honestly, I haven't sorted out which.
 
-The upsides are obvious:
+The upside is clear:
 
-- Options I'd never have known about get considered from day one
-- "My technical skills" stops being a blocker
-- Design and implementation happen in parallel instead of sequentially — what would take a week happens instantly
-- A solo non-engineer can actually build a global D2C business
+- Options I'd never have considered show up on the shortlist on day one
+- "What I personally know" stops being a ceiling
+- Decision and implementation collapse into the same step — selection that should take a week happens immediately
+- A non-engineer running a global D2C brand becomes a real, not theoretical, project
 
-The risks are just as obvious:
+The downside is just as clear:
 
-- If something breaks, I might not be able to figure out what's happening
-- I can't explain "why" behind each choice (which is why I'm writing this now, to figure it out)
-- If a vendor dies, I might be slow to pivot
+- When something breaks, I might not be able to read what's broken
+- I can't yet explain "why this stack" in my own words (that's literally why I'm writing this post)
+- If a vendor dies, my replacement decision is going to be slow
 
-How that trade-off plays out in six months? No idea yet. While it's running, it's magic. If it stops, I might be in trouble.
+I won't know how this trade plays out for another six months. While it works, it's incredible. The day it stops working might be brutal.
 
-I'm doing this anyway because I want to **actually measure how far AI can go — using a real business, not a side project**. That's the only way to get a real answer. Real money moving, real customers buying, real shipments going out — that's where you learn whether this works or breaks.
+The reason I'm running it this way anyway: **I want a real answer to "how far can AI go?" measured against a real business.** Hobby projects don't generate the answer. Real money, real customers, real shipping is what produces a number you can trust.
 
-## Three days of stack building. Now we're selling to the world.
+## A three-day stack, going global
 
-Three days since I picked this stack and started assembling it.
-The actual build time was shorter than that.
+It's been three days since I picked this stack and started building. The actual hands-on-keys time is shorter than that.
 
-In those three days, the store went live. Nine languages are translating. Order webhooks are firing. Product syncing to Gelato started working. **This is the first iteration of the "AI-driven brand launch" experiment.**
+Inside that window, the storefront went live, nine languages started flowing, the order webhook is firing, and Gelato product sync is moving. **This is the v1 stack of an "AI-first brand launch" experiment.**
 
-I'm pretty sure half this stack gets swapped out in six months. FastAPI / Render is already gone. There are other sketchy pieces.
+Half of it will probably be replaced by year-end. FastAPI/Render are already gone. There are other suspect spots.
 
-But right now, today, this moment — that's when we're getting ready to sell to the world. And that's what matters most.
+But as of today, this stack is on the brink of selling globally — and that's the part that matters.
 
-Next, I'll write about how to actually separate "what Claude Code did" from "what humans did."
+Next post: which work I handed to Claude Code, and which work I had to do myself.
 
 — Yoskee
 [moday.me](https://moday.me)
+
