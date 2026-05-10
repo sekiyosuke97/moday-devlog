@@ -1,5 +1,7 @@
 <!-- canonical: https://moday.me/blogs/engineering/tech-stack-selection -->
 
+![MODAY engineering hero](https://raw.githubusercontent.com/sekiyosuke97/moday-devlog/main/assets/tech-stack-selection-hero.png)
+
 # Building MODAY's Tech Stack — I Handed It All to Claude, and Now I'm Using Services I've Never Heard Of
 
 ## This brand's concept is "AI-driven brand launch"
