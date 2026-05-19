@@ -33,9 +33,9 @@
 
 ![GA4 国別ユーザー](https://raw.githubusercontent.com/sekiyosuke97/moday-devlog/main/posts/first-inquiry-first-loss-ga4-countries.png)
 
-- United States: 22ユーザー（44.9%）
-- Japan: 13ユーザー（26.5%）
-- Germany: 6ユーザー（12.2%）
+- United States: 22ユーザー（44%）
+- Japan: 14ユーザー（28%）
+- Germany: 6ユーザー（12%）
 - Singapore: 3ユーザー
 - Canada: 2ユーザー
 - South Korea: 1ユーザー
