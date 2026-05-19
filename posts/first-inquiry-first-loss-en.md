@@ -28,9 +28,9 @@ In parallel, I checked GA4. The first 24-hour snapshot since opening.
 
 ![GA4 users by country](https://raw.githubusercontent.com/sekiyosuke97/moday-devlog/main/posts/first-inquiry-first-loss-ga4-countries.png)
 
-- United States: 22 users (44.9%)
-- Japan: 13 users (26.5%)
-- Germany: 6 users (12.2%)
+- United States: 22 users (44%)
+- Japan: 14 users (28%)
+- Germany: 6 users (12%)
 - Singapore: 3 users
 - Canada: 2 users
 - South Korea: 1 user
