@@ -1,4 +1,4 @@
-<!-- canonical: https://moday.me/blogs/journal/blog-distribution-pipeline -->
+<!-- canonical: https://moday.me/blogs/engineering/blog-distribution-pipeline -->
 
 # 한 번 쓰면 9개 언어, 10개 매체로 — MODAY 배포 파이프라인
 
