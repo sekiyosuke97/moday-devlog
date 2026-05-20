@@ -91,3 +91,17 @@ More soon.
 
 — Yoskee  
 [moday.me](https://moday.me)
+
+---
+
+<!-- moday-product-card -->
+### Wear the day. — Get the MODAY Tees
+
+| Set | Pieces | Price |
+|---|---|---|
+| **[The Full Week →](https://moday.me/collections/bundle-full-week)** | Mon–Sun (7) | $159 |
+| **[The Workweek →](https://moday.me/collections/bundle-workweek)** | Mon–Fri (5) | $119 |
+| **[Starter Pack →](https://moday.me/collections/bundle-starter)** | Mon · Wed · Fri (3) | $79 |
+| **[The Weekend →](https://moday.me/collections/bundle-weekend)** | Sat · Sun (2) | $55 |
+
+*Free shipping over $99 · 8 colors × 6 sizes · 9 languages*
