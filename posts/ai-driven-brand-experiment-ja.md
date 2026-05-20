@@ -1,4 +1,4 @@
-<!-- canonical: https://moday.me/blogs/engineering/ai-driven-brand-experiment -->
+<!-- canonical: https://moday.me/blogs/journal/ai-driven-brand-experiment -->
 
 # AIにどこまで渡せるか — MODAYで実際にAIに渡せなかった作業
 
@@ -141,3 +141,17 @@ AI 自身が事業者になれる日が来たら、ここも全部 AI に渡る�
 
 — Yoskee  
 [moday.me](https://moday.me)
+
+---
+
+<!-- moday-product-card -->
+### 今日を着る。— MODAY のTシャツを手に入れる
+
+| セット | 枚数 | 価格 |
+|---|---|---|
+| **[一週間セット →](https://moday.me/collections/bundle-full-week)** | Mon–Sun (7) | $159 |
+| **[平日セット →](https://moday.me/collections/bundle-workweek)** | Mon–Fri (5) | $119 |
+| **[スターターパック →](https://moday.me/collections/bundle-starter)** | Mon · Wed · Fri (3) | $79 |
+| **[週末セット →](https://moday.me/collections/bundle-weekend)** | Sat · Sun (2) | $55 |
+
+*$99以上で送料無料 · 8色 × 6サイズ · 9言語*
