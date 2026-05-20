@@ -1,4 +1,4 @@
-<!-- canonical: https://moday.me/blogs/engineering/blog-distribution-pipeline -->
+<!-- canonical: https://moday.me/blogs/journal/blog-distribution-pipeline -->
 
 # MODAY構築ブログを9言語10媒体に配信するパイプライン
 
@@ -151,3 +151,17 @@ Tumblr の API 化、status.json のダッシュボード化、SNS への自動�
 
 — Yoskee  
 [moday.me](https://moday.me)
+
+---
+
+<!-- moday-product-card -->
+### 今日を着る。— MODAY のTシャツを手に入れる
+
+| セット | 枚数 | 価格 |
+|---|---|---|
+| **[一週間セット →](https://moday.me/collections/bundle-full-week)** | Mon–Sun (7) | $159 |
+| **[平日セット →](https://moday.me/collections/bundle-workweek)** | Mon–Fri (5) | $119 |
+| **[スターターパック →](https://moday.me/collections/bundle-starter)** | Mon · Wed · Fri (3) | $79 |
+| **[週末セット →](https://moday.me/collections/bundle-weekend)** | Sat · Sun (2) | $55 |
+
+*$99以上で送料無料 · 8色 × 6サイズ · 9言語*
