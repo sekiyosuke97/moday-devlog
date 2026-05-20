@@ -1,4 +1,4 @@
-<!-- canonical: https://moday.me/blogs/journal/blog-distribution-pipeline -->
+<!-- canonical: https://moday.me/blogs/engineering/blog-distribution-pipeline -->
 
 # 一篇日文稿，九种语言十个平台：MODAY 的分发流水线
 
