@@ -1,39 +1,37 @@
 <!-- canonical: https://moday.me/blogs/journal/why-moday -->
 
-![MODAY MONDAY tee](https://raw.githubusercontent.com/sekiyosuke97/moday-devlog/main/assets/why-moday-hero.png)
+# Why I Started MODAY — The Story of a T-Shirt That Says "I'm So Sorry"
 
-# Why I Started MODAY — The T-Shirt That Says "I'm So Sorry"
+## "I'm So Very Sorry" Printed on a T-Shirt, Right There on the Zoom Call
 
-## The Apology T-Shirt on the Zoom Call
+It was the day a client got stranded on a trip because of a typhoon.
 
-A client got stranded by a typhoon while traveling.
+It was meeting time. I opened Zoom, and there on the other side of the screen was the client wearing a T-shirt with **"I'm So Very Sorry"** printed on it in big Japanese characters.
 
-It was time for our scheduled meeting. I opened Zoom, and on the other side of the screen, the client was wearing a T-shirt with **"I'm terribly sorry"** printed across it in large Japanese characters.
+"There's a typhoon, so I'm still away from home," they said with a laugh. "Is it okay if I'm dressed like this today?"
 
-"The typhoon knocked out my travel plans, so I'm still calling in from where I'm stuck," they said with a laugh. "Is it okay if I look like this today?"
+In other words, **they were apologizing for joining from a trip location — and the apology was on the T-shirt itself**. Before they could say it out loud, the shirt was doing the apologizing.
 
-They were apologizing for joining from a remote location — and they did it with a T-shirt. The shirt was saying sorry before their mouth could.
+I laughed. Really laughed. **This is good**, I thought. The T-shirt instantly connected to their situation and softened the mood. **What you wear can tell the story of who you are that day**.
 
-I laughed. I really laughed. **This is good**, I thought. The T-shirt instantly connected to their situation and defused the tension. **You could wear your day on your sleeve.**
+## Remote Work Makes You Lose Track of Days
 
-## Losing Track of Weekdays in Remote Work
+A little before that, I'd been feeling something. When you do remote work long enough, **the sense of which day it is just fades away**.
 
-A little before that, something had been nagging at me. When you work remote long enough, **the days of the week start to blur together**.
+Tuesday and Wednesday blur together. You think it's Monday when it's actually Thursday night. Friday's relief gets diluted. Monday's heaviness becomes fuzzy.
 
-Tuesday bleeds into Wednesday. You think it's Monday when it's actually Thursday night. Friday's freedom doesn't hit the same. Monday's weight goes fuzzy.
+You look at the calendar. But you don't *feel* the day of the week in your bones.
 
-You check the calendar. But you don't *feel* what day it is in your bones.
+Just like that "I'm So Sorry" T-shirt explained that person's day in one line, I thought — **what if you could wear the day of the week on your chest?** That seemed fun.
 
-Just like that "I'm terribly sorry" T-shirt summed up someone's entire day in one line, **what if you could wear the day of the week?** — that's when it hit me.
+## Why It Had to Be for Engineers and Geeks
 
-## Why Target Engineers and Geeks
+Making a day-of-the-week T-shirt the normal way wouldn't be interesting. A T-shirt that just says "Monday" already exists everywhere.
 
-Making a weekday T-shirt wouldn't be interesting if you played it straight. There are plenty of boring "Monday" tees out there already.
-
-It would only land with **people who mess with things for the fun of it**. People who can commit `git commit -m "fix typo"` three times in a row and crack up. People posting Stack Overflow questions at 2 AM. Engineers. Geeks.
+If it was going to land, I figured it would be **with the people who do stupid things with style**. The kind of people who can laugh after doing `git commit -m "fix typo"` three times in a row. The people posting questions on Stack Overflow at 2 AM. Engineers. Geeks.
 
 | Day | Print | Color |
-|---|---|---|
+| --- | --- | --- |
 | MONDAY | System Booting... | Black |
 | TUESDAY | Compiling... | Black |
 | WEDNESDAY | Deployed in progress | Black |
@@ -42,63 +40,77 @@ It would only land with **people who mess with things for the fun of it**. Peopl
 | SATURDAY | Off the grid | Blue |
 | SUNDAY | Rebooting... | Red |
 
-I kept the weekday run in black, but switched colors for the weekend. Saturday blue, Sunday red. I wanted that visual break between work mode and the two days off.
+I kept the five weekdays all black, and switched colors just for the weekend. Saturday is blue, Sunday is red. I wanted there to be a small visual shift on those two days when you step away from work.
 
-## I Never Meant to Start a Brand
+## I Didn't Plan to Start a Brand
 
-Usually I consult on ecommerce. I've spent years in the trenches building and running stores. But I had zero intention of launching my own brand.
+I normally do e-commerce consulting. Because of the work, I've been in the trenches of store building and operations for years. Still, I had zero intention of launching my own brand.
 
-Growing someone else's brand is fun. But going from zero to one — that's a different kind of commitment. Inventory, photography, shipping, customer service, taxes, international logistics disasters. Suddenly you're holding it all alone.
+Growing other people's brands is fun. But taking the founder seat from zero requires a different kind of resolve. Inventory. Photography. Shipping. Customer service. Taxes. International shipping headaches. The domain of stuff you're holding alone explodes.
 
-And I'll be honest: **this is my first real time diving into Shopify**. As a consultant, I'd worked more with other platforms and just watched Shopify from the outside.
+And to be honest, **this is the first time I'm seriously using Shopify**. As a consultant, I've worked more with other e-commerce platforms and just watched Shopify from the outside.
 
-That's why I flipped the script and decided to build it myself. March, April of this year (2026).
+So I flipped all that over and decided to do it myself. That was March and April of this year (2026).
 
-## How Claude Code, Shopify, and Gelato Changed the Math
+## What Claude Code, Shopify, and Gelato Changed
 
-If this were January or February, I probably wouldn't have done it.
+If it had been January or February, I probably wouldn't have started.
 
-But in March, I started really working with Claude Code. Not just code — operating workflows, webhooks, image generation, translation, file organization, all of it moving in sync with my directions. **Even touching Shopify for the first time, Claude Code fills in the gaps I don't understand**. That made all the difference.
+Once March hit, I dove into Claude Code. Not just code — operating flows, Webhooks, image generation, translation, file management. I could run everything with it as my copilot. **Even while getting my hands dirty with Shopify for the first time, Claude Code filled in the gaps I didn't understand**. That was huge.
 
-Shopify made Translate & Adapt free, which slashed the barrier to launching in 9 languages overnight.
+Shopify making Translate & Adapt free dropped the barrier for a 9-language rollout instantly.
 
-I knew about Gelato already, but I tested it again and confirmed that **Geo-Routing actually works** in practice. Orders print and ship from the facility closest to the customer's country. I'm in Japan and the world is available from day one.
+I'd known about Gelato, but when I tested it again, I confirmed that **Geo-Routing actually works in practice**. Orders get printed and shipped from the facility closest to the customer's country. While sitting in Japan, you can sell to the world from day one.
 
-**One person, worldwide, zero inventory, three months to launch.** That became real. By late March, I knew it was possible.
+"**One person. Global. Zero inventory. Three months to launch.**" That moment became real. By mid-March, I was certain we could do it.
 
-## Story Over Product
+## It's Not About the Thing — It's About the Experience and Story
 
-Anyone can make a weekday T-shirt. Ship the design to China, pump out thousands at $3 cost per unit.
+A day-of-the-week T-shirt as a product, anyone can make. Send it to China, do a mass run at $3 cost per shirt.
 
-You can't compete on that level. What MODAY sells is the **feeling of a full week embodied in cotton**, and the **ridiculous conspiracy between the person wearing it and the person who made it**.
+You can't win on that. What MODAY sells is **the embodied feeling of one week, baked into the shirt**, and **the goofball conspiracy between the people wearing it and the people making it**.
 
-That's why I'm going to tell way more stories about the *behind-the-scenes* of the product than about the product itself. This post is the first one.
+That's why I'm planning to push the story behind the product way more than the product page itself. This article is the first one.
 
-## Reality: I Thought Two Days, But Four or Five Isn't Cutting It
+## Reality: I Thought Two Days, But Four or Five Days Aren't Enough
 
-Real talk: I planned to **blast the whole thing live in two days** during Golden Week. Then just fine-tune from there.
+To be straight with you, I was going to **blitz the whole thing in two days during Golden Week**. Then it'd just be tweaks.
 
-Instead, I've already put in **four or five days of solid work** and still haven't shipped. Store configuration, design, translating and QA-ing 9 languages, connecting products to Gelato, payment testing, terms of service, legal disclaimers, shipping policies. It never stops.
+In reality, I'm **four or five days of work in** right now and still not done. Store configuration, design, translation checks across 9 languages, Gelato product syncing, payment testing, terms of service, special commerce disclosures, shipping policy. It just keeps coming.
 
-The development velocity itself is 3–5x normal because of Claude Code. But two days turned into five and we're still going. **The distance from "building a store" to "a store that's ready to sell" is way further than I thought**.
+The actual development speed feels 3–5x faster thanks to Claude Code. But even that doesn't fit the two-day plan into five days. **The distance from "building a store" to "having a store ready to sell" is further than I imagined**.
 
-Right now I'm targeting **May 18, 2026 for launch**. That's 9 days left. From here, it's just ticking off whatever I can, in order.
+Right now I'm **targeting May 18, 2026 for launch**. Nine days left. From here on, I just keep checking things off the list in order.
 
-And 5/18 isn't the finish line anyway. **The real work starts after we go live**. When the first order comes in. When the 9-language localization actually matters. When Gelato's Geo-Routing proves it's working like we hoped. MODAY's build has only just started.
+And 5/18 isn't the finish line. **The real work starts after we open**. Until the first order comes in, until the 9-language localization actually proves itself, until Gelato's Geo-Routing works exactly as planned — it's all still ahead. Building MODAY is only just beginning.
 
-## What I'm Writing Next
+## What I'll Write Going Forward
 
-I'm documenting the entire MODAY build on this blog.
+On this blog, I'm going to document everything about getting MODAY off the ground.
 
-- Why we picked our tech stack (that's the next post)
-- What we gave to Claude Code vs. what we did ourselves
-- Whether Gelato's Geo-Routing actually works in production
-- Where the 9-language localization tripped us up
-- The day the first order landed
+* Why I picked the tech stack (that's the next post)
+* What I threw at Claude Code vs. what I did myself
+* Whether Gelato's Geo-Routing actually works in production
+* Where we got stuck on 9-language localization
+* The day we got our first order
 
-I'm shipping both wins and disasters as-is. Not a polished case study — this is a **log from the trenches**.
+I'll put it all out there — wins and fails. Not a polished case study, but **a record from the trenches**.
 
-See you in the next one.
+More to come.
 
-— Yoskee
+— Yoskee  
 [moday.me](https://moday.me)
+
+---
+
+<!-- moday-product-card -->
+### Wear the day. — Get the MODAY Tees
+
+| Set | Pieces | Price |
+|---|---|---|
+| **[The Full Week →](https://moday.me/collections/bundle-full-week)** | Mon–Sun (7) | $159 |
+| **[The Workweek →](https://moday.me/collections/bundle-workweek)** | Mon–Fri (5) | $119 |
+| **[Starter Pack →](https://moday.me/collections/bundle-starter)** | Mon · Wed · Fri (3) | $79 |
+| **[The Weekend →](https://moday.me/collections/bundle-weekend)** | Sat · Sun (2) | $55 |
+
+*Free shipping over $99 · 8 colors × 6 sizes · 9 languages*
