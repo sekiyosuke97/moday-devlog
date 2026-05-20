@@ -1,4 +1,4 @@
-<!-- canonical: https://moday.me/blogs/journal/blog-distribution-pipeline -->
+<!-- canonical: https://moday.me/blogs/engineering/blog-distribution-pipeline -->
 
 # Un post, nove lingue, dieci piattaforme: la pipeline di distribuzione di MODAY
 
